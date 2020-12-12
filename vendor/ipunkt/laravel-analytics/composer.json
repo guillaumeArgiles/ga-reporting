@@ -1,0 +1,31 @@
+{
+	"name": "ipunkt/laravel-analytics",
+	"type": "library",
+	"description": "Analytics tracking for Laravel",
+	"keywords": ["analytics", "google analytics", "laravel", "statistics", "javascript", "php"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Robert Kummer",
+			"email": "r.kummer@ipunkt.biz"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "~4.0|~5.0",
+		"illuminate/session": "~4.0|~5.0",
+		"illuminate/config": "~4.0|~5.0"
+	},
+	"require-dev": {
+		"laravel/framework": "~4.0|~5.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Ipunkt\\LaravelAnalytics\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"minimum-stability": "stable"
+}
